@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context="com.example.amlidaz.chefapplication.Profile_chef">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+<ImageView
+    android:id="@+id/Chef_pic"
+    android:layout_width="240dp"
+    android:layout_height="240dp"
+    android:layout_gravity="center" />
+
+<Button
+    android:id="@+id/btUnload"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:onClick="btnBrowse_Click"
+    android:text="Upload Image" />
+
+<EditText
+    android:id="@+id/editTextChefName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Chef name" />
+
+<EditText
+    android:id="@+id/editTextChefAddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Chef Address"
+    android:inputType="textMultiLine" />
+
+<EditText
+    android:id="@+id/editTextChefPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Chef Phone Number" />
+
+    <EditText
+        android:id="@+id/editTextChefSpeciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chef Food Speciality" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:onClick="btnUploadChief_Click"
+    android:text="Upload Chef Profile" />
+
+
+</LinearLayout>
+    </ScrollView>
